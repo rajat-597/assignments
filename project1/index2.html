@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>project1</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
+    integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <style>
+    .navbar-brand {
+      font-family: 'Ubuntu', sans-serif;
+      font-size: 2em;
+      font-weight: bold;
+    }
+
+    .custom-nav a {
+      font-size: 1.2rem;
+      font-weight: bold;
+    }
+
+    .navbar #myMenu .custom-nav .nav-item a {
+      color: #fff;
+    }
+
+    .navbar #myMenu .custom-nav .nav-item a:hover {
+      color: #F0AAB1;
+    }
+
+    /* Make Header Image Responsive */
+    .back-image {
+      background-size: cover;
+      background-position: center center;
+      background-repeat: no-repeat;
+      min-height: 70vh;
+      border-radius: 0px;
+      margin-top: 74px;
+    }
+
+    .st {
+      font-size: 1.5rem;
+    }
+
+    .footer-copyright {
+      font-size: 1.2rem;
+    }
+  </style>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-sm navbar-dark bg-danger pl-5 fixed-top">
+    <a href="#" class="navbar-brand">PUBG</a>
+    <span class="navbar-text">PlayerUnknown BattleGrounds</span>
+    <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#myMenu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="myMenu">
+      <ul class="navbar-nav pl-5 custom-nav ml-auto">
+        <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+        <li class="nav-item"><a href="#Services" class="nav-link">Services</a></li>
+        <li class="nav-item"><a href="#Team" class="nav-link">Team player</a></li>
+        <li class="nav-item"><a href="#Contact" class="nav-link">Contact us</a></li>
+      </ul>
+    </div>
+  </nav> <!-- End Navigation -->
+
+  <!-- header start -->
+  <header class="jumbotron back-image" id="home" style="background-image: url(image2/pubg.jpg);">
+    <div class="text-center" style="margin-top: 100px;">
+      <h1 class="text-uppercase text-danger font-weight-bold">Welcome to Pubg BattleField</h1>
+      <p class="font-weight-bold st ">Winner Winner Chicken Dinner</p>
+      <a class="btn btn-primary mr-4" href="https://www.pubg.com" target="_blank" role="button">Learn More</a>
+      <a class="btn btn-primary " href="#Contact" role="button">Join Now</a>
+    </div>
+  </header>
+  <!-- End of header -->
+
+  <!-- start service -->
+  <div class="container text-center border-bottom" id="Services">
+    <h2>Our Services</h2>
+    <div class="row mt-4">
+      <div class="col-sm-4 ">
+        <a href="#"><i class="fab fa-android fa-10x text-success"></i></a>
+        <h4 class="mt-4">Android Application</h4>
+      </div>
+      <div class="col-sm-4 ">
+        <a href="#"><i class="fab fa-windows fa-10x"></i></a>
+        <h4 class="mt-4">Windows Application</h4>
+      </div>
+      <div class="col-sm-4 ">
+        <a href="#"><i class="fab fa-apple fa-10x text-info"></i></a>
+        <h4 class="mt-4">Ios Application </h4>
+      </div>
+    </div>
+  </div> <!-- End Services -->
+
+  <div class="jumbotron bg-info" id="Team">
+    <!-- Start Team Jumbotron -->
+    <div class="container">
+      <!-- Start Team Container -->
+      <h2 class="text-center text-white">Team</h2> <!-- Team Heading-->
+      <div class="row mt-5">
+        <!-- Start Team Row-->
+        <div class="col-lg-3 col-sm-6">
+          <!-- Start Team 1st Column-->
+          <div class="card shadow-lg mb-2">
+            <div class="card-body text-center">
+              <img src="image2/mayank.jpg" class="img-fluid rounded-circle" style="width: 100px; height: 100px;">
+              <h4 class="card-title">Mayank </h4>
+              <p class="card-text">He is good team player although he is new to this squad but he is
+                playing well and improving with every game and he is good at throwing grenade.</p>
+
+            </div>
+          </div>
+        </div> <!-- End Team 1st Column-->
+
+        <div class="col-lg-3 col-sm-6">
+          <!-- Start Team 2nd Column-->
+          <div class="card shadow-lg mb-2">
+            <div class="card-body text-center">
+              <img src="image2/sourav.jpg" class="img-fluid rounded-circle" style="width: 100px; height: 100px;">
+              <h4 class="card-title">Sourav</h4>
+              <p class="card-text">He is good team player although he is new to this squad but he is
+                playing well and improving with every game and he is good at throwing grenade.</p>
+
+            </div>
+          </div>
+        </div> <!-- End Team 2nd Column-->
+
+        <div class="col-lg-3 col-sm-6">
+          <!-- Start Team 3rd Column-->
+          <div class="card shadow-lg mb-2">
+            <div class="card-body text-center">
+              <img src="image2/sweekar.jpg" class="img-fluid rounded-circle" style="width: 100px; height: 100px;">
+              <h4 class="card-title">Sweekar</h4>
+              <p class="card-text">He is good team player although he is new to this squad but he is
+                playing well and improving with every game and he is good at throwing grenade.</p>
+            </div>
+          </div>
+        </div> <!-- End Team 3rd Column-->
+
+        <div class="col-lg-3 col-sm-6">
+          <!-- Start Team 4th Column-->
+          <div class="card shadow-lg mb-2">
+            <div class="card-body text-center">
+              <img src="image2/rana.jpg" class="img-fluid rounded-circle" style="width: 100px; height: 100px;">
+              <h4 class="card-title">Shubham </h4>
+              <p class="card-text">HE is good team player although he is new to this squad but he is
+                playing well and improving with every game and he is good at throwing grenade.</p>
+            </div>
+          </div>
+        </div> <!-- End Team 4th Column-->
+      </div> <!-- End Team Row-->
+    </div> <!-- End Team Container -->
+  </div> <!-- End Team Jumbotron -->
+
+  <!-- contact form  -->
+  <div class="container" id="Contact">
+    <!--Start Contact Us Container-->
+    <h2 class="text-center mb-4">Contact US</h2> <!-- Contact Us Heading -->
+    <div class="row">
+      <!--Start Contact Us Row-->
+      <div class="col-12">
+        <!--Start Contact Us 1st Column-->
+        <form action="#" method="post">
+          <input class="form-control" name="name" placeholder="Name" /><br />
+          <input class="form-control" name="phone" placeholder="Phone" /><br />
+          <input class="form-control" name="email" placeholder="E-mail" /><br />
+          <textarea class="form-control" name="text" placeholder="How can we help you?"
+            style="height:150px;"></textarea><br />
+          <input class="btn btn-primary" type="submit" value="Send" /><br /><br />
+        </form>
+      </div> <!-- End Contact Us 1st Column-->
+    </div>
+  </div>
+
+  <!-- start of footer  -->
+  <footer class="container-fluid bg-dark text-white mt-5" style="border-top: 3px solid #DC3545;">
+    <div class="footer-copyright text-center py-3">&copy 2020 copyright:
+      <a href="https://www.pubg.com" target="_blank">pubg.com</a>
+    </div>
+  </footer>
+  <!-- end Footer Container -->
+
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>
